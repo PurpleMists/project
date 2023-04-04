@@ -80,11 +80,12 @@ void makeArray1D(int ar[N][N], int size)
 		}
 	}
 
-	printf("\nUnsorted 1D array: \t");
+	printf("\nUnsorted 1D array: \n");
 	for (i = 0; i < size_d; i++)
 	{
 		printf("D[%d]: %d  ", i, d[i]);
 	}
+	printf("\n");
 
 	//Sorting 1D array
 	for (i = 0; i < size_d; i++)
@@ -105,4 +106,5 @@ void makeArray1D(int ar[N][N], int size)
 	{
 		printf("D[%d]: %d  ", i, d[i]);
 	}
+	printf("\n");
 }
